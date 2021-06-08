@@ -1,0 +1,166 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    font-family:'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    margin:0%;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content:flex-end;
+}
+
+.header {
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #311200;
+    color: #ffffff;
+}
+
+
+.header h1 {
+    display:inline;
+    font-size: 50px;
+    text-shadow: 0px 20px 20px #da785b;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content:space-evenly;
+    background-color: brown;
+    min-width: 700px;
+    padding:14px 20px;
+    border-radius: 100%;
+}
+  
+nav a {
+    color: #233a10;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+  
+nav a:hover {
+    color:rgb(19, 204, 207)
+}
+
+main {
+    display:inline-flex;
+    flex-grow:1;
+    background-color:whitesmoke;
+}
+
+
+aside {
+    text-align: left;
+    margin-right:0px;
+    margin-top: 10px;
+    margin-right:10px;
+    margin-bottom: 0%;
+    padding: 20px;
+    clear: both;
+    float: right;
+    background-color: #da785b;
+    flex:1
+}
+
+
+
+.future {
+    height: 800px;   
+    margin-top: 10px;
+    margin-bottom: 25px;
+    background-image: url("https://www.wallpaperflare.com/static/574/1021/177/languages-programming-html-source-wallpaper.jpg");
+    background-size:auto;
+    background-position:center;
+}
+
+
+
+
+.content {
+    margin-left: 20px;
+}
+
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+
+.ahrum {
+    margin-top: 800px;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    background-color: #f39242;
+    color: #ffffff;
+    text-shadow: 0px 10px 10px rgb(2, 58, 58);
+}
+
+
+
+.qualification {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    background-color: #d36907;
+    color: #ffffff;
+    text-shadow: 0px 10px 10px rgb(2, 58, 58);    
+}
+
+
+.achievement {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    background-color: #d36907;
+    color: #ffffff;
+    text-shadow: 0px 10px 10px rgb(2, 58, 58);    
+}
+
+
+
+
+.ahrum img {
+    max-height: 200px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.qualification img {
+    max-height: 200px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.achievement img {
+    max-height: 200px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+
+.ahrum h3 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.qualification h4 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.achievement h5 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
