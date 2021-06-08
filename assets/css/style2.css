@@ -71,6 +71,8 @@ aside {
 
 .future {
     height: 800px;   
+    width: 100%;
+    justify-content: flex-start;
     margin-top: 10px;
     margin-bottom: 25px;
     background-image: url("https://www.wallpaperflare.com/static/574/1021/177/languages-programming-html-source-wallpaper.jpg");
@@ -98,7 +100,7 @@ aside {
 
 
 .ahrum {
-    margin-top: 800px;
+    margin-top: 20px;
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
