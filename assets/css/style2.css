@@ -9,6 +9,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     justify-content:flex-end;
+    background-color: black;
 }
 
 .header {
@@ -16,27 +17,30 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #311200;
     color: #ffffff;
+    background-image: url("https://wallpapercave.com/wp/wp4848952.jpg");
+    background-size:auto;
+    background-position:center;
 }
 
 
 .header h1 {
     display:inline;
     font-size: 50px;
-    text-shadow: 0px 20px 20px #da785b;
+    text-shadow: 0px 20px 20px green;
 }
 
 
 nav ul {
     display: flex;
     justify-content:space-evenly;
-    background-color: brown;
+    background-color:black;
     min-width: 700px;
     padding:14px 20px;
     border-radius: 100%;
 }
   
 nav a {
-    color: #233a10;
+    color:rgb(19, 204, 207);
     font-weight: bold;
     text-decoration: none;
     font-size: 17px;
@@ -44,27 +48,29 @@ nav a {
 }
   
 nav a:hover {
-    color:rgb(19, 204, 207)
+    color:yellow;
 }
 
 main {
     display:inline-flex;
     flex-grow:1;
-    background-color:whitesmoke;
+    background-color:rgb(59, 57, 57);
 }
 
 
 aside {
+    background-image: url("https://wallpapercave.com/wp/wp4848952.jpg");
+    background-size:auto;
+    background-position:center;
+    color:#ffffff;
     text-align: left;
     margin-right:0px;
     margin-top: 10px;
     margin-right:10px;
     margin-bottom: 0%;
-    padding: 20px;
+    padding: 50px;
     clear: both;
-    float: right;
-    background-color: #da785b;
-    flex:1
+    float: right;   
 }
 
 
@@ -73,9 +79,12 @@ aside {
     height: 800px;   
     width: 100%;
     justify-content: flex-start;
+    display:inline-flex;
+    align-items:center; 
     margin-top: 10px;
+    margin-left: 10px;
     margin-bottom: 25px;
-    background-image: url("https://www.wallpaperflare.com/static/574/1021/177/languages-programming-html-source-wallpaper.jpg");
+    background-image: url("https://blogsmedia.lse.ac.uk/blogs.dir/76/files/2016/11/technology-785742_1920-1024x683.jpg");
     background-size:auto;
     background-position:center;
 }
@@ -85,6 +94,8 @@ aside {
 
 .content {
     margin-left: 20px;
+    display: inline;
+    align-items:center;
 }
 
 
@@ -100,37 +111,41 @@ aside {
 
 
 .ahrum {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
-    background-color: #f39242;
+    background-color:black;
     color: #ffffff;
-    text-shadow: 0px 10px 10px rgb(2, 58, 58);
+    text-shadow: 0px 10px 10px green;
+    align-items:center;
 }
 
 
 
 .qualification {
-    margin-bottom: 20px;
-    padding: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
-    background-color: #d36907;
+    background-color:#161514;
     color: #ffffff;
-    text-shadow: 0px 10px 10px rgb(2, 58, 58);    
+    text-shadow: 0px 10px 10px green;    
+    align-items:center;
 }
 
 
 .achievement {
-    margin-bottom: 20px;
-    padding: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
-    background-color: #d36907;
+    background-color: #2c2a29;
+    ;
     color: #ffffff;
-    text-shadow: 0px 10px 10px rgb(2, 58, 58);    
+    text-shadow: 0px 10px 10px green; 
+    align-items:center;  
 }
 
 
@@ -139,30 +154,120 @@ aside {
 .ahrum img {
     max-height: 200px;
     border-radius: 15px 15px 15px 15px;
+    display:inline-flex;
+    align-items:center;  
 }
 
 .qualification img {
     max-height: 200px;
     border-radius: 15px 15px 15px 15px;
+    display:inline-flex;
+    align-items:flex-end;
 }
 
 .achievement img {
     max-height: 200px;
     border-radius: 15px 15px 15px 15px;
+    display:inline-flex;
 }
 
 
 .ahrum h3 {
     margin-bottom: 20px;
     font-size: 36px;
+    color:goldenrod;
+    text-align-last: center;
 }
 
 .qualification h4 {
     margin-bottom: 20px;
+    text-align-last: center;
     font-size: 36px;
+    color:goldenrod;
 }
 
 .achievement h5 {
     margin-bottom: 20px;
+    text-align-last: center;
     font-size: 36px;
+    color:goldenrod
+}
+
+ul li {
+    text-align-last:center;
+}
+
+
+
+.resources h6 {
+    color:wheat;
+    font-size: 30px;
+    text-align: center;
+}
+
+.resources .links {
+    display: none;
+    font-size: 17px;
+    padding: 1% 0;
+    cursor:help;
+    background-image: url("https://blogsmedia.lse.ac.uk/blogs.dir/76/files/2016/11/technology-785742_1920-1024x683.jpg");
+}
+
+.resources:hover .links { 
+    display:block;
+}
+
+.links a {
+    color:chartreuse;
+    text-decoration: none;
+}
+  
+.links a:hover {
+    text-decoration:solid;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(240, 8, 8); 
+    border-radius: 10px;
+}
+   
+
+::-webkit-scrollbar-thumb {
+    background:goldenrod; 
+    border-radius: 10px;
+}
+  
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(7, 58, 38); 
+}
+
+
+
+footer {
+    width: 100%;
+    bottom: 0;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: auto;
+}
+
+@media screen and (max-width: 768px) {
+    header,
+    main,
+    nav,
+    .future,
+    .content,
+    .resources,
+    .footer {
+      flex-direction: column;
+    }
 }
