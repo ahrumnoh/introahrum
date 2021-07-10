@@ -24,6 +24,6 @@ Instead of making CSS Snippet Cheatsheet using google slide, I draw layouts on t
 -hover functions
 
 
-![image!](USYDfirsthw\introahrum\assets\images\qualification.jpeg)
+![image!](assets/images/qualification.jpeg)
 
 
