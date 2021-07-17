@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dosis:wght@600&display=swap');
+
 *{
 	padding: 0;
 	margin: 0;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family:'Abril Fatface, cursive';
 	box-sizing: border-box;
 }
 .hero{
 	height: 100vh;
 	width: 100%;
-	background-image: url("https://source.unsplash.com/1600x900/?graffiti");
+	background-image: url("https://source.unsplash.com/1600x900/?black");
 	background-size: cover;
 	background-position: center;
 }
@@ -26,7 +28,7 @@ nav{
 	cursor: pointer;
 }
 span{
-	color: #f9004d;
+	color: #7c6c71;
 }
 nav ul li{
 	list-style-type: none;
@@ -34,7 +36,7 @@ nav ul li{
 	padding: 10px  25px;
 }
 nav ul li a{
-	color: white;
+	color: rgb(194, 189, 189);
 	text-decoration: none;
 	font-weight: bold;
 	text-transform: capitalize;
@@ -67,55 +69,33 @@ h1{
 	margin: 20px 0px 20px;
 	font-size: 75px;
 }
+
+
+
 h3{
-	color: white;
+	color: rgb(172, 167, 172);
 	font-size: 25px;
 	margin-bottom: 50px;
 }
 h4{
-	color: #fcfc;
+	color: rgba(167, 252, 10, 0.8);
 	letter-spacing: 2px;
 	font-size: 20px;
 }
-.newslatter form{
-	width: 380px;
-	max-width: 100%;
-	position: relative;
-}
-.newslatter form input:first-child{
-	display: inline-block;
-	width: 100%;
-	padding: 14px 130px 14px 15px;
-	border: 2px solid #f9004d;
-	outline: none;
-	border-radius: 30px;
-}
-.newslatter form input:last-child{
-	position: absolute;
-	display: inline-block;
-	outline: none;
-	border: none;
-	padding: 10px 30px;
-	border-radius: 30px;
-	background-color:#f9004d;
-	color: white;
-	box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
-	top: 6px;
-	right: 6px; 
-}
+
 
 .about{
 	width: 100%;
 	padding: 100px 0px;
-	background-color: #191919;
+	background-color: #161616;
 }
 .about img{
-	height: auto;
-	width: 430px;
+	height: 200px;
+	width: 200px;
 	border-radius: 100%;
 }
 .about-text{
-	width: 550px;
+	width: 700px;
 }
 .main{
 	width: 1130px;
@@ -139,17 +119,17 @@ h4{
 	text-transform: capitalize;
 }
 .about-text p{
-	color: #fcfc;
+	color: lightgrey;
 	letter-spacing: 1px;
 	line-height: 28px;
 	font-size: 18px;
 	margin-bottom: 45px;
 }
 button{
-	background-color:#f9004d;
-	color: white;
+	background-color:black;
+	color: rgb(162, 169, 177);
 	text-decoration: none;
-	border: 2px solid transparent;
+	border: 2px solid lime;
 	font-weight: bold;
 	padding: 13px 30px;
 	border-radius: 30px;
@@ -157,11 +137,11 @@ button{
 }
 button:hover{
 	background-color: transparent;
-	border: 2px solid #f9004d;
+	border: 2px solid #996475;
 	cursor: pointer;
 }
 
-.service{
+.portfolio{
 	background: #101010;
 	width: 100%;
 	padding: 100px 0px;
@@ -195,7 +175,7 @@ button:hover{
 	display: block;
 	text-align: center;
 	margin: 25px 0px;
-	color: #f9004d;
+	color: #8d8989;
 
 }
 h5{
@@ -203,43 +183,60 @@ h5{
 	font-size: 23px;
 	margin-bottom: 15px;
 }
+
+.profile h6 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 0px;
+    align-content: center;
+    margin-bottom: 70px;
+}
+
 .pra p{
-	color: #fcfc;
-	font-size: 16px;
+	color: rgba(182, 112, 7, 0.8);
+	font-size: 20px;
 	line-height: 27px;
 	margin-bottom: 25px;
 }
 .card .button{
-	background-color:#f9004d;
+	background-color:#534449;
 	color: white;
 	text-decoration: none;
 	border: 2px solid transparent;
+    font-size: 13px;
 	font-weight: bold;
 	padding: 9px 22px;
 	border-radius: 30px;
 	transition: .4s; 
+    align-content: center;
 }
 .card .button:hover{
 	background-color: transparent;
 	border: 2px solid #f9004d;
 	cursor: pointer;
 }
-.contact-me{
+.profile{
 	width: 100%;
-	height: 290px;
+	height: 700px;
 	background: #191919;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
 }
-.contact-me p{
-	color: white;
+.profile p{
+	color: rgb(110, 105, 105);
 	font-size: 30px;
 	font-weight: bold;
-	margin-bottom: 25px;
+	margin-bottom: 50px;
+    text-align:center;
+    align-content:center;
 }
-.contact-me .button-two{
+
+.profile i{
+    color:rgb(219, 169, 83);
+}
+.profile .button-two{
 	background-color:#f9004d;
 	color: white;
 	text-decoration: none;
@@ -249,7 +246,7 @@ h5{
 	border-radius: 30px;
 	transition: .4s; 
 }
-.contact-me .button-two:hover{
+.profile .button-two:hover{
 	background-color: transparent;
 	border: 2px solid #f9004d;
 	cursor: pointer;
@@ -266,40 +263,34 @@ footer{
 }
 footer p:nth-child(1){
 	font-size: 30px;
-	color: white;
+	color: rgb(145, 127, 127);
 	margin-bottom: 20px;
 	font-weight: bold;
 }
-footer p:nth-child(2){
-	color: white;
-	font-size: 17px;
-	width: 500px;
-	text-align: center;
-	line-height: 26px;
-}
+
 .social{
 	display: flex;
 }
+
 .social a{
 	width: 45px;
 	height: 45px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background:  #f9004d;
+	background:  rgb(92, 92, 81);
 	border-radius: 50%;
 	margin: 22px 10px;
-	color: white;
+	color:burlywood;
 	text-decoration: none;
 	font-size: 20px;
 }
+
 .social a:hover{
 	transform: scale(1.3);
 	transition: .3s;
 }
-.end{
-	position: absolute;
-	color:#f9004d;
-	bottom: 35px;
-	font-size: 14px; 
+
+footer p {
+    color:chocolate;
 }
