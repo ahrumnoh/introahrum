@@ -134,6 +134,7 @@ button{
 	padding: 13px 30px;
 	border-radius: 30px;
 	transition: .4s; 
+	margin-right: 5%;
 }
 button:hover{
 	background-color: transparent;
