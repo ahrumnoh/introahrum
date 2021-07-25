@@ -1,5 +1,5 @@
 # intro-Ahrum Noh
-![image!](assets\images\Portfolio.jpg)
+![image!](https://github.com/ahrumnoh/introahrum/blob/main/assets/images/Portfolio.jpg)
 
 ***Object***:
 
