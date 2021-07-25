@@ -3,13 +3,13 @@
 
 
 
-##Object##
+## Object
 
 Softengineering Portfolio Project at USYD
 
 
 
-##Intro##
+## Intro 
 
 There are four sections of this page
 
