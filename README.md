@@ -1,4 +1,5 @@
 # intro-Ahrum Noh
+![image!](assets\images\Portfolio.jpg)
 
 ***Object***:
 
@@ -24,6 +25,5 @@ Instead of making CSS Snippet Cheatsheet using google slide, I draw layouts on t
 -hover functions
 
 
-![image!](assets/images/qualification.jpeg)
 
 
