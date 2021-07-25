@@ -3,20 +3,20 @@
 
 
 
-***Object***:
+##Object##
 
 Softengineering Portfolio Project at USYD
 
 
 
-***Intro***
+##Intro##
 
 There are four sections of this page
 
-*About (Resume, Cover letter)
-*Portfolio ( Three individual projects + Group project )
-*Skills
-*Contact Detail
+* About (Resume, Cover letter)
+* Portfolio ( Three individual projects + Group project )
+* Skills
+* Contact Detail
 
 
 
