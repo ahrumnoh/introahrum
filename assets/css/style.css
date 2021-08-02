@@ -13,8 +13,10 @@
 	background-size: cover;
 	background-position: center;
 }
+
 nav{
 	display: flex;
+	justify-content: flex-end;
 	align-items: center;
 	justify-content: space-between;
 	padding-top: 45px;
@@ -303,8 +305,16 @@ footer p {
     color:chocolate;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
+@media (min-width: 600px) {
+	.portfolio {
+		flex-direction: column;
+	}
+	.pra {
+		flex-direction: column;
+	}
+	.box .card {
+		flex-direction: column;
+	}
+	
+	
 }
