@@ -91,14 +91,17 @@ h4{
 	width: 100%;
 	padding: 100px 0px;
 	background-color: #161616;
+	display: flex;
 }
 .about img{
 	height: 200px;
 	width: 200px;
 	border-radius: 100%;
+	display: flex;
 }
 .about-text{
 	width: 700px;
+	padding: 3%;
 }
 .main{
 	width: 1130px;
@@ -113,6 +116,7 @@ h4{
 	font-size: 75px;
 	text-transform: capitalize;
 	margin-bottom: 20px;
+	
 }
 .about-text h5{
 	color: white;
@@ -120,6 +124,7 @@ h4{
 	font-size: 22px;
 	margin-bottom: 25px;
 	text-transform: capitalize;
+	
 }
 .about-text p{
 	color: lightgrey;
@@ -127,6 +132,7 @@ h4{
 	line-height: 28px;
 	font-size: 18px;
 	margin-bottom: 45px;
+
 }
 button{
 	background-color:black;
@@ -150,16 +156,20 @@ button:hover{
 	width: 100%;
 	justify-content: center;
 	align-items: center;
+	display: flex;
 	padding: 100px 0px;
 }
 .title h2{
-	color: white;
+	color:gray;
 	font-size: 75px;
 	width: 1130px;
 	margin: 30px auto;
+	padding: 5px;
 	text-align:center;
     align-content:center;
+	display: flex;	
 }
+
 .box{
 	display: flex;
 	justify-content: center;
@@ -177,8 +187,6 @@ button:hover{
 	overflow: hidden;
 	text-align:center;
 	align-content:center;
-
-	
 }
 .card i{
 	font-size: 50px;
@@ -305,16 +313,14 @@ footer p {
     color:chocolate;
 }
 
-@media (min-width: 600px) {
-	.portfolio {
-		flex-direction: column;
-	}
-	.pra {
-		flex-direction: column;
-	}
-	.box .card {
-		flex-direction: column;
+
+
+@media only screen and (max-width: 600px) {
+	.box{
+		flex-direction:column;
 	}
 	
-	
+	.main {
+		flex-direction: column;
+	}
 }
