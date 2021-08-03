@@ -1,8 +1,3 @@
-# intro-Ahrum Noh
-![image!](https://github.com/ahrumnoh/introahrum/blob/main/assets/images/Portfolio.jpg)
-
-
-
 ## 🚩Object
 
 ![Introduction of this portfolio](https://github.com/ahrumnoh/introahrum/blob/main/assets/images/mockup.png?raw=true)
@@ -21,6 +16,9 @@ There are four sections of this page
  +coding source at repository at Github
 * Skills
 * Contact Detail
+
+
+
 
 
 
