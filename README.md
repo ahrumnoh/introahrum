@@ -2,7 +2,7 @@
 
 ![Introduction of this portfolio](https://github.com/ahrumnoh/introahrum/blob/main/assets/images/mockup.png?raw=true)
 
-Softengineering Portfolio Project at USYD
+Software engineering Portfolio Project at USYD
 This Website presents for portfolio of Ahrum Noh
 
 
