@@ -332,14 +332,6 @@ footer p {
 }
 
 
-@media only screen and (max-width: 600px) {
-	.box{
-		flex-direction:column;
-	}	
-	.main {
-		flex-direction: column;
-  }
-}
 
 div#title.title {
 	background-color: #101010;
@@ -407,4 +399,39 @@ ul{
 	color:rgb(162, 169, 177);
 	text-align: center;
 	padding-bottom: 2%;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.box{
+		flex-direction:column;
+	}	
+	.main {
+		flex-direction: column;
+    }
+	.portfolio{
+		flex-direction: column;
+	}
+	.hero {
+		flex-direction: column;
+	}
+	.video{
+		flex-direction: column;
+	}
+	.section.about{
+		flex-direction: column;
+	}
+	.div.about-text{
+		flex-direction: column;
+	}
+	.content {
+		flex-direction: column;
+	}
+	.div.BackCard{
+		flex-direction: column;
+	}
+	.nav {
+		flex-direction: column;
+	}
+
 }
