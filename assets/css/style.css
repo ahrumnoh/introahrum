@@ -94,7 +94,7 @@ h4{
 
 .about{
 	width: 100%;
-	padding: 100px 0px;
+	padding: 20px 0px;
 	background-color: #161616;
 	display: flex;
 }
@@ -105,6 +105,7 @@ h4{
 	display: flex;
 	box-shadow: 5px 5px 5px rgba(119, 5, 81, 0.548);
 }
+
 .about-text{
 	width: 700px;
 	padding: 3%;
