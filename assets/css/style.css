@@ -270,7 +270,7 @@ h5{
 }
 
 .profile i{
-    color:rgb(219, 169, 83);
+    color:rgb(248, 208, 140);
 }
 .profile .button-two{
 	background-color:#f9004d;
@@ -368,4 +368,43 @@ div#title.title {
 
 .fa-gamepad:before {
     color:blue;
+}
+
+
+
+div.BackCard {
+	height: 150px;
+	width: 300px;
+	background: #00000069;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+	text-align:center;
+    align-content:space-around;
+	display:inline-flex;
+	align-content: center;
+    box-shadow: 10px 10px 10px rgb(223 238 10 / 66%);
+	padding-left: 4%;
+	padding-top: 1%;
+}
+
+div#portfolioBackend.portfolioBackend {
+	margin-top:2%;
+	margin-bottom: 5%;
+	
+}
+
+
+h6 {
+	font-size: 40px;
+	color: #996475;
+	text-align: center;
+	padding-bottom: 2%;
+}
+ul{
+	font-size: 15px;
+	color:rgb(162, 169, 177);
+	text-align: center;
+	padding-bottom: 2%;
 }
