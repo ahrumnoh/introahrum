@@ -103,7 +103,7 @@ h4{
 	width: 350px;
 	border-radius: 10%;
 	display: flex;
-	box-shadow: 5px 5px 5px rgba(119, 5, 81, 0.548);
+	box-shadow: 10px 10px 10px rgba(223, 238, 10, 0.658);
 }
 
 .about-text{
@@ -158,8 +158,13 @@ button:hover{
 	cursor: pointer;
 }
 
+div#portfolio.portfolio{
+	background: black;
+
+}
+
 .portfolio{
-	background: #101010;
+	background-image: url("https://source.unsplash.com/1600x900/?flowers");
 	width: 100%;
 	justify-content: center;
 	align-items: center;
@@ -173,6 +178,7 @@ button:hover{
 	text-align:center;
     align-content:center;
 	display: flex;	
+	
 }
 
 .box{
@@ -190,6 +196,7 @@ button:hover{
 	overflow: hidden;
 	text-align:center;
 	align-content:center;
+	box-shadow: 10px 10px 10px rgba(223, 238, 10, 0.658);
 }
 .card i{
 	font-size: 50px;
@@ -246,7 +253,7 @@ h5{
 	justify-content: center;
 }
 .profile p{
-	color: rgb(110, 105, 105);
+	color: rgb(139, 90, 34);
 	font-size: 30px;
 	font-weight: bold;
 	margin-bottom: 50px;
