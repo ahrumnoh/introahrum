@@ -373,17 +373,21 @@ div.BackCard {
     position: relative;
     overflow: hidden;
 	text-align:center;
-    align-content:space-around;
-	display:inline-flex;
-	align-content: center;
+    display: inline-flex;
+    align-content: center;
+	align-items: center;
+	flex-wrap: wrap;
     box-shadow: 10px 10px 10px rgb(223 238 10 / 66%);
 	padding-left: 4%;
 	padding-top: 1%;
 }
 
 div#portfolioBackend.portfolioBackend {
-	margin-top:2%;
-	margin-bottom: 5%;
+
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 5%;
 	
 }
 
@@ -431,6 +435,24 @@ ul{
 		flex-direction: column;
 	}
 	.nav {
+		flex-direction: column;
+	}
+	.nav ul li{
+		flex-direction: column;
+
+	}
+	.div#portfolioBackend.portfolioBackend {
+		flex-direction: column;
+	}
+	.body {
+		flex-direction: column;
+	}
+	.content .video {
+
+		flex-direction: column;
+	}
+
+	div#hero.hero{
 		flex-direction: column;
 	}
 
