@@ -374,12 +374,9 @@ div.BackCard {
     overflow: hidden;
 	text-align:center;
     display: inline-flex;
-    /* align-content:flex-end;
-	align-items:flex-end; */
-	justify-content: center;
+    justify-content: center;
+	padding-top: 2%;
 	box-shadow: 10px 10px 10px rgb(223 238 10 / 66%);
-	padding-left: 4%;
-	padding-top: 1%;
 }
 
 div#portfolioBackend.portfolioBackend {
