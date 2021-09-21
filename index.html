@@ -278,10 +278,15 @@ Framework) | OOP| WordPress| GitHub|Git BASH |Microsoft Visual Studio Code |Ruby
 NODE JS | Oracle VM | Kali Linux |Photoshop | Heroku | Insomnia | SQL
     </p>
 
-
+	
 	<!------footer start--------->
 	<footer>
+
+		<br>
+		<br>
+
 		<p>Contact Detail</p>
+		<br>
 		
 	<div class="social" id="social">
 	  <a href="https://www.linkedin.com/in/ahrumnoh/"><i class="fab fa-linkedin"></i></a>
@@ -292,7 +297,35 @@ NODE JS | Oracle VM | Kali Linux |Photoshop | Heroku | Insomnia | SQL
     <br>
     <i class="fas fa-envelope-open-text"> : ahrumnoh@gmail.com</i>
 	  <br>
+
+
+	  <div class="emailCard">
+											
+		<div class="pra">
+  
+			<p>Leave a message to Ahrum Noh</p>   
+
+			<input type="text" id="fromName" placeholder="Enter from name" />
+			<input type="text" id="msg" placeholder="Enter your message" /> 
+			<input type="text" id="mobile" placeholder="Enter mobile" /> 
+			<input type="text" id="gmail" placeholder="Enter your Email" /> 
+			<br>
+			<button onclick='sendMail()'>Send Email</button>
+			
+		
+			</p>
+		</div>
+	</div>
+	
     </footer>
+
+	<script src="./assets/js/index.js"></script> 
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function() {
+     emailjs.init("user_3b79zupKdJXe1Nk7NSvqE");
+    })();
+    </script>   
 </body>
 
 </html>

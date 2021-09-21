@@ -452,3 +452,30 @@ ul{
 }
 
 
+div.pra {
+	display: flex;
+	flex-direction: column;
+	border-radius: 5px;
+}
+
+
+input#fromName {
+	height: 38px;
+	width:  400px;
+}
+
+input#msg {
+	height: 38px;
+	width: 400px;
+
+}
+input#mobile {
+	height: 38px;
+	width: 400px;
+}
+
+input#gmail {
+	height: 38px;
+	width: 400px;
+}
+
