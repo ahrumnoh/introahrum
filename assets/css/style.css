@@ -449,6 +449,21 @@ ul{
 	div#hero.hero{
 		flex-direction: column;
 	}
+
+	div{
+		flex-direction: column;
+	}
+
+	div.pra {
+		flex-direction: column;
+	}
+
+	.div.about-text {
+		flex-direction: column;
+	}
+	h6{
+		flex-direction: column;
+	}
 }
 
 
