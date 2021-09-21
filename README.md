@@ -11,7 +11,8 @@ This Website presents for portfolio of Ahrum Noh
 
 There are four sections of this page
 
-* About (Resume, Cover letter)
+* Short Video intro about Ahrum Noh
+* About (Resume)
 * Portfolio ( Three individual projects + Group project ) 
  +coding source at repository at Github
 * Skills
