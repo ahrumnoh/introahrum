@@ -16,6 +16,7 @@ There are four sections of this page
  +coding source at repository at Github
 * Skills
 * Contact Detail
+* Auto Email function added (with Vanilla JS)
 
 
 ## Website URL
