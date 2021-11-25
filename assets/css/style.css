@@ -13,14 +13,14 @@ body{
 .hero{
 	height: 100vh;
 	width: 100%;
-	background-image: url("https://source.unsplash.com/1600x900/?roses");
+	background-image: url("https://source.unsplash.com/1600x900/?laptop");
 	background-size: cover;
 	background-position: center;
 }
 
 nav{
 	display: flex;
-	text-shadow: 2px 2px 5px rgba(216, 8, 243, 0.548);
+	text-shadow: 2px 2px 5px rgba(223, 178, 33, 0.548);
 	justify-content: flex-end;
 	align-items: center;
 	justify-content: space-between;
@@ -35,7 +35,7 @@ nav{
 	cursor: pointer;
 }
 span{
-	color: #e61053;
+	color: #ffa705;
 }
 nav ul li{
 	list-style-type: none;
@@ -74,8 +74,8 @@ nav ul li a:hover{
 	transform: translateY(-50%);
 }
 h1{
-	color: rgb(206, 136, 136);
-	text-shadow: 6px 6px 6px rgba(250, 250, 248, 0.658);;
+	color: rgb(255, 255, 255);
+	text-shadow: 6px 6px 6px rgba(4, 248, 216, 0.658);;
 	margin: 20px 0px 20px;
 	font-size: 75px;
 }
@@ -83,7 +83,7 @@ h1{
 
 
 h3{
-	color: rgb(253, 1, 1);
+	color: rgb(250, 243, 243);
 	text-shadow: 6px 6px 6px rgba(240, 240, 232, 0.658);;
 	font-size: 25px;
 	margin-bottom: 50px;
@@ -97,6 +97,18 @@ h4{
 
 h6 {
 	padding-top: 5%;
+}
+
+
+h7 {
+	font-size: 35px;
+	color:#e98f19;
+	text-align: center;
+	padding-bottom: 2%;
+}
+
+section.space {
+	text-align: center;
 }
 
 
@@ -172,7 +184,7 @@ div#portfolio.portfolio{
 }
 
 .portfolio{
-	background-image: url("https://source.unsplash.com/1600x900/?flowers");
+	background-image: url("https://source.unsplash.com/1600x900/?black");
 	width: 100%;
 	justify-content: center;
 	align-items: center;
@@ -180,8 +192,7 @@ div#portfolio.portfolio{
 	padding: 100px 0px;
 }
 .portfolio h2{
-	color:rgb(253, 251, 251);
-	text-shadow: 2px 2px 5px rgba(216, 8, 243, 0.548);
+	color:rgb(248, 163, 4);
 	font-size: 40px;
 	text-align:center;
     align-content:center;
@@ -381,17 +392,32 @@ div.BackCard {
 	box-shadow: 10px 10px 10px rgb(223 238 10 / 66%);
 }
 
-div#portfolioBackend.portfolioBackend {
-	
-	justify-content: center;
-	
+section.react {	
+	justify-content: center;	
 	padding-bottom: 5%;	
 }
 
 
+
+div#portfolioBackend.portfolioBackend {
+	
+	justify-content: center;	
+	padding-bottom: 5%;	
+}
+
+
+div#reactPortfolio.reactPortfolio {
+	justify-content: center;	
+	padding-bottom: 5%;	
+	padding-top: 3%;
+}
+
+
+
+
 h6 {
 	font-size: 40px;
-	color: #996475;
+	color: #e98f19;
 	text-align: center;
 	padding-bottom: 2%;
 }
@@ -440,6 +466,11 @@ ul{
 	.div#portfolioBackend.portfolioBackend {
 		flex-direction: column;
 	}
+
+	.div#reactPortfolio.reactPortfolio {
+		flex-direction: column;
+	}
+
 	.body {
 		flex-direction: column;
 	}
@@ -496,3 +527,9 @@ input#gmail {
 	width: 400px;
 }
 
+
+
+
+.section.react div#reactPortfolio.reactPortfolio {
+	align-content: center;
+}
